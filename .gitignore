@@ -1,3 +1,11 @@
 .DS_Store
 .vscode
 error.log
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/codeStyles/Project.xml
+/.idea/rewoven-site.iml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
+/.idea/.gitignore
