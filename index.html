@@ -40,21 +40,26 @@
             </div>
         </section>
         <section class="portfolio-block photography bg-dark">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item"><a href="#"><img class="img-fluid image" src="https://legacyfabric.net/res/img/1.8.9.png"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="#"><img class="img-fluid image" src="https://legacyfabric.net/res/img/1.12.2.png"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="#"><img class="img-fluid image" src="https://legacyfabric.net/res/img/1.7.10.png"></a></div>
+            <div class="color container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 item"><a href="#"><img class="img-fluid image" src="https://cdn.discordapp.com/attachments/893245920668450816/925901636839305286/2021-12-29_19.00.18.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item"><a href="#"><img class="img-fluid image" src="https://cdn.discordapp.com/attachments/893245920668450816/925901637086752778/2021-12-29_18.59.41.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item"><a href="#"><img class="img-fluid image" src="https://cdn.discordapp.com/attachments/893245920668450816/925901636608610364/2021-12-29_19.00.27.png"></a></div>
                 </div>
             </div>
         </section>
         <section class="portfolio-block call-to-action border-bottom bg-dark">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center content">
-                    <h3 class="text-white">Want to try it out?</h3><button class="btn btn-outline-primary btn-lg" type="button">Download</button>
+                    <h3 class="text-white">Want to try it out?</h3><button class="btn btn-outline-primary btn-lg" onclick = "download()" type="button">Download</button>
                 </div>
             </div>
         </section>
+        <script>
+            function download() {
+                window.location = "https://github.com/LegacyRewoven/legacy-rewoven-installer/releases";
+            }
+        </script>
         <section class="portfolio-block skills bg-info">
             <div class="container">
                 <!-- Start: portfolio heading -->
@@ -67,7 +72,7 @@
                             <div class="card-header bg-transparent border-0"><i class="icon ion-bookmark"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">API</h3>
-                                <p class="card-text">RewovenMC provides an API with common hooks and features to allow interoperability between mods.</p>
+                                <p class="card-text">RewovenMC provides an API with common hooks and features to allow interoperability between mods, as well as easier mod development.</p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +90,7 @@
                             <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
                             <div class="card-body">
                                 <h3 class="card-title">Loader</h3>
-                                <p class="card-text">RewovenMC prides itself on its use of upstream Fabric Loader, ensuring the best performance and stability.</p>
+                                <p class="card-text">RewovenMC prides itself on its use of The Fabric Project's latest builds of Fabric Loader, ensuring the best performance, stability, support, and usability.</p>
                             </div>
                         </div>
                     </div>
